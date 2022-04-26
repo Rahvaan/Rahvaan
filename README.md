@@ -12,6 +12,7 @@ life <- function(sleep){
 		if(time < 18){ study }
 		if(itme > 18){ chill }
 	}
+	go_to_bed()
 }
 ```
 
