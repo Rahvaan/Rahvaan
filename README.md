@@ -9,8 +9,8 @@ student <- TRUE
 code <- c(R, python)
 life <- function(sleep){
 	if(sleep == FALSE){
-		if(time < 18){ study }
-		if(itme > 18){ chill }
+		if(time < 18){ study() }
+		if(itme > 18){ chill() }
 	}
 	go_to_bed()
 }
